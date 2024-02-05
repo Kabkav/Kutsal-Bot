@@ -21,7 +21,7 @@ module.exports = async (client, interaction, args) => {
 
     let number = interaction.options.getNumber('number');
 
-    player.skipto(parseInt(number))
+    player.skipto(parseInt(number));
 
     client.succNormal({ 
         text: `Skipped the music to **${number}**`, 
