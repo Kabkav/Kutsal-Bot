@@ -16,7 +16,7 @@ module.exports = async (client, interaction, args) => {
 
     client.embed({
         title: `📻・Radio stopped`,
-        desc: `Radio has stopped successfully \nTo make the bot join do: \`rplay\``,
+        desc: `Radio has stopped successfully \nTo make the bot join do: \`radio play\``,
         fields: [{
             name: "👤┆Stopped By",
             value: `${interaction.user} (${interaction.user.tag})`,
