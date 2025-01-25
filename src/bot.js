@@ -93,10 +93,10 @@ if (clientID && clientSecret) {
         ],
         nodes: [
             {
-                host: process.env.LAVALINK_HOST || "54.36.225.156",
-                port: parseInt(process.env.LAVALINK_PORT) || 2333,
-                password: process.env.LAVALINK_PASSWORD || "s4DarqP$&y",
-                secure: Boolean(process.env.LAVALINK_SECURE) || false
+                host: process.env.LAVALINK_HOST || "lava-v3.ajieblogs.eu.org",
+                port: parseInt(process.env.LAVALINK_PORT) || 433,
+                password: process.env.LAVALINK_PASSWORD || "https://dsc.gg/ajidevserver",
+                secure: Boolean(process.env.LAVALINK_SECURE) || true
             },
         ],
         send(id, payload) {
