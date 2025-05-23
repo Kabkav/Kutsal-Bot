@@ -93,7 +93,7 @@ if (clientID && clientSecret) {
         ],
         nodes: [
             {
-                host: process.env.LAVALINK_HOST || "lavalinkv3-id.serenetia.com",
+                host: process.env.LAVALINK_HOST || "lava-all.ajieblogs.eu.org",
                 port: parseInt(process.env.LAVALINK_PORT) || 433,
                 password: process.env.LAVALINK_PASSWORD || "https://dsc.gg/ajidevserver",
                 secure: Boolean(process.env.LAVALINK_SECURE) || true
