@@ -93,9 +93,9 @@ if (clientID && clientSecret) {
         ],
         nodes: [
             {
-                host: process.env.LAVALINK_HOST || "lava-v4.ajieblogs.eu.org",
-                port: parseInt(process.env.LAVALINK_PORT) || 433,
-                password: process.env.LAVALINK_PASSWORD || "https://dsc.gg/ajidevserver",
+                host: process.env.LAVALINK_HOST || "lavalink-railways-for-santo-production.up.railway.app",
+                port: parseInt(process.env.LAVALINK_PORT) || 443,
+                password: process.env.LAVALINK_PASSWORD || "youshallpass",
                 secure: Boolean(process.env.LAVALINK_SECURE) || true
             },
         ],
