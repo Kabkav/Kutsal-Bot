@@ -94,7 +94,7 @@ if (clientID && clientSecret) {
         nodes: [
             {
                 host: process.env.LAVALINK_HOST || "lavalink-railways-for-santo-production.up.railway.app",
-                port: parseInt(process.env.LAVALINK_PORT) || 433,
+                port: parseInt(process.env.LAVALINK_PORT) || 443,
                 password: process.env.LAVALINK_PASSWORD || "youshallpass",
                 secure: Boolean(process.env.LAVALINK_SECURE) || true
             },
